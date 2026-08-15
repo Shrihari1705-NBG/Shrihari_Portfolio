@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: PIXY;
-    src: url("../Fonts/PIXY.woff2") format("woff2");
+    src: url("/Assets/PIXY.ttf") format("truetype");
 }
 
 * {
