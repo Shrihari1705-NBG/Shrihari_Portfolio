@@ -886,6 +886,11 @@ body {
     opacity: .8;
 }
 
+/* Desktop: no break before GOUDRU */
+.footer-break {
+    display: none;
+}
+
 /* ==========================
         RESPONSIVE
 ========================== */
@@ -1216,6 +1221,12 @@ body {
 
     .footer-text {
         font-size: 24px;
+    }
+
+    /* Push GOUDRU to next line on mobile */
+    .footer-break {
+        display: block;
+        width: 100%;
     }
 }
 
