@@ -1,7 +1,7 @@
 # SHRIHARI PORTFOLIO
 
 <p align="center">
-  **A retro-inspired portfolio built with HTML, CSS, and creativity.**<br>
+  <b>A retro-inspired portfolio built with HTML, CSS, and creativity.</b><br>
   Pixel aesthetics • Smooth animations • Case-study driven projects
 </p>
 
