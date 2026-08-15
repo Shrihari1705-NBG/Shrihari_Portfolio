@@ -1,8 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 
 @font-face {
-    font-family: PIXY;
-    src: url("/Assets/PIXY.ttf") format("truetype");
+    font-family: 'PIXY';
+    src: url('/Assets/PIXY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 * {
@@ -47,7 +50,7 @@ body {
     justify-content: center;
     gap: 14px;
     padding: 18px 34px;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 24px;
     text-decoration: none;
     color: #151418;
@@ -95,7 +98,7 @@ body {
 }
 
 .project-title {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 72px;
     letter-spacing: 1px;
     color: #151418;
@@ -112,7 +115,7 @@ body {
 
 .project-description {
     max-width: 760px;
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 34px;
     line-height: 1.35;
     color: #151418;
@@ -133,7 +136,7 @@ body {
 }
 
 .tech-title {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 34px;
     color: #151418;
     margin-bottom: 24px;
@@ -151,7 +154,7 @@ body {
     border-radius: 999px;
     background: #8BC8F4;
     color: #151418;
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 26px;
     font-weight: bold;
 }
@@ -170,7 +173,7 @@ body {
     justify-content: center;
     gap: 12px;
     padding: 16px 30px;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 22px;
     text-decoration: none;
     color: #151418;
@@ -293,6 +296,3 @@ body {
     }
 }
 
-* {
-    font-family: 'PIXY' !important;
-}

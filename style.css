@@ -5,8 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 @font-face {
-    font-family: PIXY;
-    src: url("/Assets/PIXY.ttf") format("truetype");
+    font-family: 'PIXY';
+    src: url('/Assets/PIXY.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 /* ==========================================================================
@@ -46,12 +49,13 @@ body {
 }
 
 .logo {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 48px;
     color: #151418;
 }
 
 .logo-link {
+    font-family: 'PIXY', sans-serif;
     text-decoration: none;
     color: inherit;
     cursor: pointer;
@@ -64,7 +68,7 @@ body {
 }
 
 .nav-links a {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 28px;
     color: #151418;
     text-decoration: none;
@@ -145,21 +149,21 @@ body {
 }
 
 .hero-title {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 32px;
     color: #151418;
 }
 
 .hero-name {
     margin-top: 12px;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 48px;
     color: #D49963;
 }
 
 .hero-role {
     margin-top: 20px;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 24px;
     color: #151418;
 }
@@ -170,7 +174,7 @@ body {
     max-width: 560px;
     line-height: 1.5;
     font-size: 24px;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     color: #151418;
 }
 
@@ -188,7 +192,7 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 20px;
     color: white;
     box-shadow: 8px 8px rgba(0, 0, 0, .15);
@@ -237,7 +241,7 @@ body {
 }
 
 .status-label {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 14px;
     color: #8BC8F4;
     letter-spacing: 1px;
@@ -245,7 +249,7 @@ body {
 }
 
 .availability-text {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 22px;
     font-weight: bold;
     color: #6c9abb;
@@ -397,7 +401,7 @@ body {
 .about-text {
     width: 95%;
     max-width: 760px;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-weight: 600;
     font-size: 30px;
     line-height: 1.45;
@@ -433,7 +437,7 @@ body {
 
 .fact-title {
     display: block;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 28px;
     color: #777;
     letter-spacing: 1px;
@@ -442,7 +446,7 @@ body {
 
 .fact-value {
     display: block;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: #151418;
@@ -465,7 +469,7 @@ body {
 }
 
 .learning-title {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 20px;
     color: #151418;
     margin-bottom: 18px;
@@ -497,7 +501,7 @@ body {
 }
 
 .learning-item span:last-child {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
@@ -519,7 +523,7 @@ body {
 
 .category-title {
     font-size: 52px;
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-weight: 400;
     margin-bottom: 12px;
 }
@@ -534,16 +538,16 @@ body {
 
 .highlight-blue {
     color: #8BC8F4;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
 }
 
 .highlight-orange {
     color: #D49963;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
 }
 
 .category-subtitle {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 24px;
     color: #151418;
     margin-bottom: 36px;
@@ -616,7 +620,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 26px;
     color: rgba(255, 255, 255, 0.92);
     letter-spacing: 1px;
@@ -631,7 +635,7 @@ body {
 }
 
 .project-name {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 44px;
     line-height: 1.05;
     color: #d7efff;
@@ -714,7 +718,7 @@ body {
 }
 
 .contact-title {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 44px;
     color: #151418;
     margin-bottom: 16px;
@@ -722,7 +726,7 @@ body {
 }
 
 .contact-message {
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 26px;
     line-height: 1.35;
     color: #D49963;
@@ -745,13 +749,13 @@ body {
 }
 
 .availability-small {
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 28px;
     color: #151418;
 }
 
 .availability-heading {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 42px;
     color: #151418;
     margin-top: 8px;
@@ -774,7 +778,7 @@ body {
 }
 
 .availability-list li {
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 24px;
     color: #151418;
     margin-bottom: 16px;
@@ -818,7 +822,7 @@ body {
     display: flex;
     align-items: center;
     gap: 12px;
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 24px;
 }
 
@@ -827,7 +831,7 @@ body {
 }
 
 .contact-card-text {
-    font-family: "Poiret One";
+    font-family: 'Poiret One', sans-serif;
     font-size: 20px;
     font-weight: 600;
     color: #151418;
@@ -863,13 +867,13 @@ body {
 }
 
 .footer-text {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', sans-serif;
     font-size: 28px;
     color: #151418;
 }
 
 .footer-name {
-    font-family: PIXY;
+    font-family: 'PIXY', sans-serif;
     font-size: 42px;
     color: #151418;
     letter-spacing: 1px;
@@ -1495,6 +1499,3 @@ body {
     }
 }
 
-* {
-    font-family: 'PIXY' !important;
-}
