@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+@font-face {
+    font-family: PIXY;
+    src: url("../Fonts/PIXY.woff2") format("woff2");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #d8dfe6;
+    color: #151418;
+    overflow-x: hidden;
+}
+
+/* ==========================
+        PROJECT PAGE
+========================== */
+
+.project-page {
+    min-height: 100vh;
+    padding: 60px 60px 80px;
+}
+
+/* ==========================
+        TOP BUTTONS
+========================== */
+
+.project-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    padding: 18px 34px;
+    font-family: PIXY;
+    font-size: 24px;
+    text-decoration: none;
+    color: #151418;
+    background: #c7cfd8;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.18);
+    transition: transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 12px 12px rgba(0, 0, 0, 0.18);
+}
+
+.back-btn:hover {
+    background: #8BC8F4;
+    color: #151418;
+}
+
+.visit-btn:hover {
+    background: #D49963;
+    color: #151418;
+}
+
+/* ==========================
+        LAYOUT
+========================== */
+
+.project-layout {
+    display: grid;
+    grid-template-columns: 1fr 520px;
+    gap: 70px;
+    align-items: start;
+}
+
+/* ==========================
+        LEFT CONTENT
+========================== */
+
+.project-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.project-title {
+    font-family: PIXY;
+    font-size: 72px;
+    letter-spacing: 1px;
+    color: #151418;
+    margin-bottom: 22px;
+}
+
+.project-divider {
+    width: 100%;
+    max-width: 760px;
+    height: 4px;
+    background: #D49963;
+    margin-bottom: 36px;
+}
+
+.project-description {
+    max-width: 760px;
+    font-family: "Poiret One";
+    font-size: 34px;
+    line-height: 1.35;
+    color: #151418;
+    margin-bottom: 60px;
+}
+
+/* ==========================
+        TECH STACK CARD
+========================== */
+
+.tech-stack-card {
+    width: 100%;
+    max-width: 760px;
+    background: rgba(255, 255, 255, 0.12);
+    border-left: 5px solid #8BC8F4;
+    padding: 28px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.tech-title {
+    font-family: PIXY;
+    font-size: 34px;
+    color: #151418;
+    margin-bottom: 24px;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+
+.tech-tag {
+    padding: 12px 28px;
+    border-radius: 999px;
+    background: #8BC8F4;
+    color: #151418;
+    font-family: "Poiret One";
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* ==========================
+        NEXT PROJECT
+========================== */
+
+.next-project {
+    margin-top: 36px;
+}
+
+.next-project-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 30px;
+    font-family: PIXY;
+    font-size: 22px;
+    text-decoration: none;
+    color: #151418;
+    background: #8BC8F4;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.next-project-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 12px 12px rgba(0, 0, 0, 0.18);
+    background: #79bdf0;
+}
+
+/* ==========================
+        RIGHT GALLERY
+========================== */
+
+.project-gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.screenshot {
+    position: relative;
+    background: #c7cfd8;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+}
+
+.screenshot.blue {
+    border-right: 8px solid #8BC8F4;
+    border-bottom: 8px solid #8BC8F4;
+}
+
+.screenshot.orange {
+    border-right: 8px solid #D49963;
+    border-bottom: 8px solid #D49963;
+}
+
+.screenshot img {
+    width: 100%;
+    display: block;
+    transition: transform 0.35s ease;
+}
+
+.screenshot:hover img {
+    transform: scale(1.02);
+}
+
+/* ==========================
+        RESPONSIVE
+========================== */
+
+@media (max-width: 1100px) {
+
+    .project-page {
+        padding: 40px 30px 60px;
+    }
+
+    .project-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .project-gallery {
+        width: 100%;
+    }
+
+    .project-title {
+        font-size: 56px;
+    }
+
+    .project-description {
+        font-size: 28px;
+    }
+
+    .tech-title {
+        font-size: 28px;
+    }
+
+    .tech-tag {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .project-actions {
+        flex-direction: column;
+        gap: 18px;
+        align-items: stretch;
+    }
+
+    .action-btn {
+        width: 100%;
+        justify-content: center;
+        font-size: 20px;
+        padding: 16px 24px;
+    }
+
+    .project-title {
+        font-size: 42px;
+    }
+
+    .project-description {
+        font-size: 24px;
+    }
+
+    .tech-title {
+        font-size: 24px;
+    }
+
+    .tech-tag {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
