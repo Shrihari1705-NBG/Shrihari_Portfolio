@@ -1,8 +1,4 @@
-# SHRIHARI PORTFOLIO
-
-<p align="center">
-  <img src="Assets/About me.png" width="420" alt="About Illustration">
-</p>
+<h1 align="center">SHRIHARI PORTFOLIO</h1>
 
 <p align="center">
   <b>A retro-inspired portfolio built with HTML, CSS, and creativity.</b><br>
@@ -10,14 +6,19 @@
 </p>
 
 <p align="center">
+  <img src="Assets/About me.png" width="420" alt="About Illustration">
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/HTML-151418?style=for-the-badge&logo=html5&logoColor=white">
   <img src="https://img.shields.io/badge/CSS-D49963?style=for-the-badge&logo=css3&logoColor=white">
   <img src="https://img.shields.io/badge/Status-Building-8BC8F4?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Portfolio-Retro%20UI-orange?style=for-the-badge">
 </p>
 
 ---
 
-## What is this?
+## About
 
 This portfolio was **designed in PowerPoint first** and later transformed into a fully responsive website. It reflects my journey from an **ECE student** to an **aspiring web developer**, combining clean UI, subtle motion, and a playful retro aesthetic.
 
@@ -75,12 +76,12 @@ This portfolio was **designed in PowerPoint first** and later transformed into a
 
 ---
 
-## Upcoming Projects
+## Currently Learning
 
-* SoloTrail
-* Weather App
-* To-Do App
-* Expense Tracker
+* ⚛ React
+* 🎨 UI Design
+* 📱 Responsive Design
+* 🚀 Building SoloTrail
 
 ---
 
@@ -97,8 +98,14 @@ Open `index.html` in your browser.
 
 ## Connect with Me
 
-* LinkedIn: https://www.linkedin.com/in/shrihari-n-b-goudru/
-* GitHub: https://github.com/Shrihari1705-NBG
+<p align="left">
+  <a href="https://www.linkedin.com/in/shrihari-n-b-goudru/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://github.com/Shrihari1705-NBG">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white">
+  </a>
+</p>
 
 ---
 
