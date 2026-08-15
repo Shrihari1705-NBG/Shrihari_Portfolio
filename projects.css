@@ -292,3 +292,7 @@ body {
         padding: 10px 20px;
     }
 }
+
+* {
+    font-family: 'PIXY' !important;
+}

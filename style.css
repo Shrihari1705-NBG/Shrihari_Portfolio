@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: PIXY;
-    src: url("../Fonts/PIXY.woff2") format("woff2");
+    src: url("/Assets/PIXY.ttf") format("truetype");
 }
 
 /* ==========================================================================
@@ -839,47 +839,47 @@ body {
           FOOTER
 ========================== */
 
-.footer{
-    width:100vw;
-    margin-left:calc(50% - 50vw);
-    margin-right:calc(50% - 50vw);
+.footer {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
 
-    background:#8BC8F4;
-    border-top:6px solid #D49963;
+    background: #8BC8F4;
+    border-top: 6px solid #D49963;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-    padding:24px 20px;
-    text-align:center;
+    padding: 24px 20px;
+    text-align: center;
 }
 
-.footer-content{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    gap:14px;
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
 }
 
-.footer-text{
-    font-family:'Poiret One';
-    font-size:28px;
-    color:#151418;
+.footer-text {
+    font-family: 'Poiret One';
+    font-size: 28px;
+    color: #151418;
 }
 
-.footer-name{
-    font-family:PIXY;
-    font-size:42px;
-    color:#151418;
-    letter-spacing:1px;
+.footer-name {
+    font-family: PIXY;
+    font-size: 42px;
+    color: #151418;
+    letter-spacing: 1px;
 }
 
-.footer-line{
-    width:460px;
-    max-width:80vw;
-    border-top:3px dashed #151418;
-    opacity:.8;
+.footer-line {
+    width: 460px;
+    max-width: 80vw;
+    border-top: 3px dashed #151418;
+    opacity: .8;
 }
 
 /* ==========================
@@ -1262,117 +1262,239 @@ body {
     }
 }
 
-.wave-name{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:2px;
+.wave-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
 }
 
-.wave-name span{
-    display:inline-block;
+.wave-name span {
+    display: inline-block;
     animation: letterWave 1.8s ease-in-out infinite;
 }
 
 /* Stagger each letter */
-.wave-name span:nth-child(1){animation-delay:0s;}
-.wave-name span:nth-child(2){animation-delay:0.10s;}
-.wave-name span:nth-child(3){animation-delay:0.15s;}
-.wave-name span:nth-child(4){animation-delay:0.20s;}
-.wave-name span:nth-child(5){animation-delay:0.25s;}
-.wave-name span:nth-child(6){animation-delay:0.30s;}
-.wave-name span:nth-child(7){animation-delay:0.35s;}
-.wave-name span:nth-child(8){animation-delay:0.40s;}
-.wave-name span:nth-child(9){animation-delay:0.45s;}
-.wave-name span:nth-child(10){animation-delay:0.50s;}
-.wave-name span:nth-child(11){animation-delay:0.55s;}
-.wave-name span:nth-child(12){animation-delay:0.60s;}
-.wave-name span:nth-child(13){animation-delay:0.65s;}
-.wave-name span:nth-child(14){animation-delay:0.70s;}
-.wave-name span:nth-child(15){animation-delay:0.75s;}
-.wave-name span:nth-child(16){animation-delay:0.80s;}
-.wave-name span:nth-child(17){animation-delay:0.85s;}
-.wave-name span:nth-child(18){animation-delay:0.90s;}
-.wave-name span:nth-child(19){animation-delay:0.95s;}
+.wave-name span:nth-child(1) {
+    animation-delay: 0s;
+}
 
-@keyframes letterWave{
-    0%,100%{
-        transform:translateY(0);
+.wave-name span:nth-child(2) {
+    animation-delay: 0.10s;
+}
+
+.wave-name span:nth-child(3) {
+    animation-delay: 0.15s;
+}
+
+.wave-name span:nth-child(4) {
+    animation-delay: 0.20s;
+}
+
+.wave-name span:nth-child(5) {
+    animation-delay: 0.25s;
+}
+
+.wave-name span:nth-child(6) {
+    animation-delay: 0.30s;
+}
+
+.wave-name span:nth-child(7) {
+    animation-delay: 0.35s;
+}
+
+.wave-name span:nth-child(8) {
+    animation-delay: 0.40s;
+}
+
+.wave-name span:nth-child(9) {
+    animation-delay: 0.45s;
+}
+
+.wave-name span:nth-child(10) {
+    animation-delay: 0.50s;
+}
+
+.wave-name span:nth-child(11) {
+    animation-delay: 0.55s;
+}
+
+.wave-name span:nth-child(12) {
+    animation-delay: 0.60s;
+}
+
+.wave-name span:nth-child(13) {
+    animation-delay: 0.65s;
+}
+
+.wave-name span:nth-child(14) {
+    animation-delay: 0.70s;
+}
+
+.wave-name span:nth-child(15) {
+    animation-delay: 0.75s;
+}
+
+.wave-name span:nth-child(16) {
+    animation-delay: 0.80s;
+}
+
+.wave-name span:nth-child(17) {
+    animation-delay: 0.85s;
+}
+
+.wave-name span:nth-child(18) {
+    animation-delay: 0.90s;
+}
+
+.wave-name span:nth-child(19) {
+    animation-delay: 0.95s;
+}
+
+@keyframes letterWave {
+
+    0%,
+    100% {
+        transform: translateY(0);
     }
-    25%{
-        transform:translateY(-8px);
+
+    25% {
+        transform: translateY(-8px);
     }
-    50%{
-        transform:translateY(0);
+
+    50% {
+        transform: translateY(0);
     }
-    75%{
-        transform:translateY(4px);
+
+    75% {
+        transform: translateY(4px);
     }
 }
 
-.wave-name{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:2px;
+.wave-name {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2px;
 }
 
-.wave-name span{
-    display:inline-block;
-    transform-origin:bottom center;
+.wave-name span {
+    display: inline-block;
+    transform-origin: bottom center;
     animation: cartoonJump 3s infinite;
 }
 
 /* Stagger each letter */
-.wave-name span:nth-child(1){animation-delay:0s;}
-.wave-name span:nth-child(2){animation-delay:0.06s;}
-.wave-name span:nth-child(3){animation-delay:0.12s;}
-.wave-name span:nth-child(4){animation-delay:0.18s;}
-.wave-name span:nth-child(5){animation-delay:0.24s;}
-.wave-name span:nth-child(6){animation-delay:0.30s;}
-.wave-name span:nth-child(7){animation-delay:0.36s;}
-.wave-name span:nth-child(8){animation-delay:0.42s;}
-.wave-name span:nth-child(9){animation-delay:0.48s;}
-.wave-name span:nth-child(10){animation-delay:0.54s;}
-.wave-name span:nth-child(11){animation-delay:0.60s;}
-.wave-name span:nth-child(12){animation-delay:0.66s;}
-.wave-name span:nth-child(13){animation-delay:0.72s;}
-.wave-name span:nth-child(14){animation-delay:0.78s;}
-.wave-name span:nth-child(15){animation-delay:0.84s;}
-.wave-name span:nth-child(16){animation-delay:0.90s;}
-.wave-name span:nth-child(17){animation-delay:0.96s;}
-.wave-name span:nth-child(18){animation-delay:1.02s;}
-.wave-name span:nth-child(19){animation-delay:1.08s;}
+.wave-name span:nth-child(1) {
+    animation-delay: 0s;
+}
 
-@keyframes cartoonJump{
+.wave-name span:nth-child(2) {
+    animation-delay: 0.06s;
+}
+
+.wave-name span:nth-child(3) {
+    animation-delay: 0.12s;
+}
+
+.wave-name span:nth-child(4) {
+    animation-delay: 0.18s;
+}
+
+.wave-name span:nth-child(5) {
+    animation-delay: 0.24s;
+}
+
+.wave-name span:nth-child(6) {
+    animation-delay: 0.30s;
+}
+
+.wave-name span:nth-child(7) {
+    animation-delay: 0.36s;
+}
+
+.wave-name span:nth-child(8) {
+    animation-delay: 0.42s;
+}
+
+.wave-name span:nth-child(9) {
+    animation-delay: 0.48s;
+}
+
+.wave-name span:nth-child(10) {
+    animation-delay: 0.54s;
+}
+
+.wave-name span:nth-child(11) {
+    animation-delay: 0.60s;
+}
+
+.wave-name span:nth-child(12) {
+    animation-delay: 0.66s;
+}
+
+.wave-name span:nth-child(13) {
+    animation-delay: 0.72s;
+}
+
+.wave-name span:nth-child(14) {
+    animation-delay: 0.78s;
+}
+
+.wave-name span:nth-child(15) {
+    animation-delay: 0.84s;
+}
+
+.wave-name span:nth-child(16) {
+    animation-delay: 0.90s;
+}
+
+.wave-name span:nth-child(17) {
+    animation-delay: 0.96s;
+}
+
+.wave-name span:nth-child(18) {
+    animation-delay: 1.02s;
+}
+
+.wave-name span:nth-child(19) {
+    animation-delay: 1.08s;
+}
+
+@keyframes cartoonJump {
 
     /* idle */
-    0%,100%{
-        transform:translateY(0) scale(1,1);
+    0%,
+    100% {
+        transform: translateY(0) scale(1, 1);
     }
 
     /* squash before jump */
-    10%{
-        transform:translateY(2px) scale(1.15,.82);
+    10% {
+        transform: translateY(2px) scale(1.15, .82);
     }
 
     /* launch upward */
-    25%{
-        transform:translateY(-18px) scale(.92,1.15);
+    25% {
+        transform: translateY(-18px) scale(.92, 1.15);
     }
 
     /* fall back */
-    40%{
-        transform:translateY(0) scale(1.05,.92);
+    40% {
+        transform: translateY(0) scale(1.05, .92);
     }
 
     /* tiny bounce */
-    55%{
-        transform:translateY(-6px) scale(.98,1.03);
+    55% {
+        transform: translateY(-6px) scale(.98, 1.03);
     }
 
     /* settle */
-    70%{
-        transform:translateY(0) scale(1,1);
+    70% {
+        transform: translateY(0) scale(1, 1);
     }
+}
+
+* {
+    font-family: 'PIXY' !important;
 }
